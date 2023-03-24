@@ -1904,13 +1904,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Damageable
       objectReference: {fileID: 0}
+    - target: {fileID: 5631283703132735433, guid: 55f5d8a498fd1604abb38b25616ce6d8, type: 3}
+      propertyPath: m_Size.x
+      value: 6.193467
+      objectReference: {fileID: 0}
+    - target: {fileID: 5642175071147797470, guid: 55f5d8a498fd1604abb38b25616ce6d8, type: 3}
+      propertyPath: m_AutoTiling
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5642175071147797470, guid: 55f5d8a498fd1604abb38b25616ce6d8, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 6.193467
+      objectReference: {fileID: 0}
     - target: {fileID: 5698219274295396846, guid: 55f5d8a498fd1604abb38b25616ce6d8, type: 3}
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5698219274295396846, guid: 55f5d8a498fd1604abb38b25616ce6d8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.28
+      value: -1.71
       objectReference: {fileID: 0}
     - target: {fileID: 5698219274295396846, guid: 55f5d8a498fd1604abb38b25616ce6d8, type: 3}
       propertyPath: m_LocalPosition.y
