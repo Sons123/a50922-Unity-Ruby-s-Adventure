@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5967924725092401802}
   - component: {fileID: 6998045210044926906}
   - component: {fileID: 2786857822836201645}
+  - component: {fileID: 1770702551}
   m_Layer: 0
   m_Name: 7d1c06b8-7c73-44b4-8c41-3246b3ce8427_image4
   m_TagString: Untagged
@@ -102,6 +103,7 @@ MonoBehaviour:
   speed: 3
   maxHealth: 5
   timeInvincible: 2
+  projectilePrefab: {fileID: 4506391257142840866, guid: 9c1b00f7e52c79e45a25de93924e2d61, type: 3}
 --- !u!50 &6998045210044926906
 Rigidbody2D:
   serializedVersion: 4
@@ -149,3 +151,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.346246, y: 0.37030408}
   m_EdgeRadius: 0
+--- !u!95 &1770702551
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5967924725092401783}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b77822e0485373d40b5beb92e9a5e728, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
