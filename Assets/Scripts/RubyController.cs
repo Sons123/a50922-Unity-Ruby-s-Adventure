@@ -61,6 +61,10 @@ public class RubyController : MonoBehaviour
             if (invincibleTimer < 0)
                 isInvincible = false;
         }
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            Launch();
+        }
     }
     void FixedUpdate()
     {
