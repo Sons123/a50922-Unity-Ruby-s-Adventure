@@ -425,6 +425,7 @@ MonoBehaviour:
   speed: 0
   vertical: 0
   changeTime: 3
+  smokeEffect: {fileID: 7952749718002460315, guid: 0c6c928dbbe611b48b793e4dd23385be, type: 3}
 --- !u!1 &1143402962
 GameObject:
   m_ObjectHideFlags: 0
