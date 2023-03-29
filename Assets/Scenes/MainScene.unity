@@ -938,6 +938,7 @@ GameObject:
   - component: {fileID: 1305240688}
   - component: {fileID: 1305240690}
   - component: {fileID: 1305240689}
+  - component: {fileID: 1305240691}
   m_Layer: 5
   m_Name: Health
   m_TagString: Untagged
@@ -1005,6 +1006,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1305240687}
   m_CullTransparentMesh: 1
+--- !u!114 &1305240691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305240687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 001183b738159ea4a84635b2490f8f47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mask: {fileID: 899321282}
 --- !u!1 &1521766319
 GameObject:
   m_ObjectHideFlags: 0
