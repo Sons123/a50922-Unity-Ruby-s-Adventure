@@ -105,6 +105,7 @@ MonoBehaviour:
   maxHealth: 5
   projectilePrefab: {fileID: 4506391257142840866, guid: 9c1b00f7e52c79e45a25de93924e2d61, type: 3}
   timeInvincible: 2
+  throwSound: {fileID: 8300000, guid: b2edfd40873655249ba0e01a5cf705be, type: 3}
 --- !u!50 &6998045210044926906
 Rigidbody2D:
   serializedVersion: 4
