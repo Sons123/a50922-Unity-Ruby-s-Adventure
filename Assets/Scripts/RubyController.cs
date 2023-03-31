@@ -57,12 +57,14 @@ public class RubyController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.X))
         {
+            Debug.Log("Passei aqui 1");
             RaycastHit2D hit = Physics2D.Raycast(rigidbody2d.position + Vector2.up * 0.2f, lookDirection, 1.5f, LayerMask.GetMask("NPC"));
             if (hit.collider != null)
             {
                 NonPlayerCharacter character = hit.collider.GetComponent<NonPlayerCharacter>();
                 if (character != null)
                 {
+                    Debug.Log("Passei aqui 2");
                     character.DisplayDialog();
                 }
             }
